@@ -46,3 +46,30 @@ p {
   font-size: 14px;
   line-height: 19px;
 }
+label {
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+
+  color: rgba(168, 168, 168, 1);
+}
+#areaEmail {
+  margin: 50px 52px;
+}
+
+input {
+  width: 798px;
+  height: 48px;
+  margin-top: 17px;
+}
+
+button {
+  width: 48px;
+  height: 48px;
+}
+#send {
+  width: 24px;
+  height: 24px;
+}
