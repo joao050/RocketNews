@@ -12,7 +12,7 @@ img {
 #text {
   width: 647px;
   height: 102px;
-  margin: 0px 21px 0px 52px;
+  margin: 0px 21px 0px 30px;
 }
 h1 {
   color: rgba(8, 192, 94, 1);
@@ -56,7 +56,7 @@ label {
   color: rgba(168, 168, 168, 1);
 }
 #areaEmail {
-  margin: 50px 52px;
+  margin: 50px 30px;
 }
 
 input {
@@ -72,4 +72,16 @@ button {
 #send {
   width: 24px;
   height: 24px;
+}
+#link {
+  margin: 0px 30px 0px;
+}
+a {
+  text-decoration: none;
+  font-family: "Spartan";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  color: rgba(130, 87, 229, 1);
 }
