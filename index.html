@@ -14,12 +14,13 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
-      <div id="logo">
-        <img src="./assets/logo.svg" alt="logo Rocketnews" />
-      </div>
-    </header>
     <main>
+      <header>
+        <div id="logo">
+          <img src="./assets/logo.svg" alt="logo Rocketnews" />
+        </div>
+      </header>
+
       <article>
         <div id="text">
           <h1>Atualize ideias e informações em 5 minutos.</h1>
@@ -36,8 +37,13 @@
         <section id="areaEmail">
           <form>
             <label for="email">Insira seu e-mail</label><br />
-            <input type="email" id="email" name="email" />
-            <button>Enviar</button>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="exemplo@gmail.com"
+            />
+            <button type="submit">Enviar</button>
           </form>
         </section>
         <div id="link">
