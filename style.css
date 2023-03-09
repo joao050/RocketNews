@@ -5,22 +5,25 @@
 }
 body {
   height: 780px;
-  position: relative;
+
+  position: absolute;
+  z-index: 2;
 }
 main {
   background-color: black;
   color: white;
-
+  margin-right: 0px;
+  padding: 30px;
   height: 780px;
-  width: 720px;
+  width: 650px;
+
+  position: absolute;
+  z-index: 3;
 }
 
 img {
   height: 94px;
   margin: 50px 301px 92px 30px;
-}
-main {
-  padding: 30px;
 }
 
 h1 {
@@ -72,11 +75,20 @@ input {
   width: 798px;
   height: 48px;
   margin-top: 17px;
+  box-shadow: 7px 7px 25px;
 }
 
 button {
   width: 48px;
   height: 48px;
+  margin-top: 5px;
+
+  background-color: rgba(130, 87, 229, 1);
+}
+button:hover {
+  background-color: rgb(98, 67, 170);
+  border: 1px solid rgba(168, 168, 168, 0.522);
+  cursor: pointer;
 }
 
 #link {
@@ -90,4 +102,16 @@ a {
   font-size: 14px;
   line-height: 19px;
   color: rgba(130, 87, 229, 1);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#img img {
+  position: relative;
+  height: 780px;
+  width: 1175px;
+  left: 376px;
+  margin: 0px;
 }
